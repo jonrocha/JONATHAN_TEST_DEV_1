@@ -1,0 +1,22 @@
+{
+  "companies": [
+    {
+    "id": "1",
+    "name": "Ford",
+    "segment": "Vehicle",
+    "standardDeviation": "27.42"
+    },
+    {
+    "id": "2",
+    "name": "Weg",
+    "segment": "Motors",
+    "standardDeviation": "30.25"
+    },
+    {
+    "id": "3",
+    "name": "Vale",
+    "segment": "Metal Mining",
+    "standardDeviation": "28.13"
+    }
+  ]
+}

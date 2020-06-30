@@ -1,0 +1,23 @@
+<div class="container">
+
+  <button type="button" class="btn btn-primary"
+    (click)="getCompanies()">GET COMPANIES</button>
+
+  <table class="table" style="margin-top: 20px">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Segment</th>
+        <th>Standard Deviation for its quotes for all time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let company of companies">
+        <td>{{ company.name }}</td>
+        <td>{{ company.segment }}</td>
+        <td>{{ company.standardDeviation }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
